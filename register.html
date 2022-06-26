@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css"/>
+  <title>Forms</title>
+</head>
+<body>
+  <header>
+    <nav class="nav">
+      <div class="logo">
+        <a href="index.html">NS</a>
+      </div>
+      <ul class="nav_link">
+        <li>
+          <a href="register.html">Register</a>
+
+        </li>
+        <li>
+          <a href="signin.html">Sign In</a>
+
+        </li>
+        <li>
+          <a href="contact.html">Contact me</a>
+
+        </li>
+      </ul>
+    </nav>
+  </header>
+<h1 style="text-align: center; margin-top:20px; color: black">Register</h1>
+<form>
+  <div>
+    <label for firstname>first name:</label>
+    <br>
+    <input type="text" name="first name" id="first name" required>
+  </div>
+  <br>
+  <div>
+    <label for lastname>last name:</label>
+    <br>
+    <input type="text" name="last name" id="last name" required> 
+  </div>
+  <br>
+    <div>
+      <label for phone number>phone number:</label>
+      <br>
+      <input type="tel" name="phone number" id="phone number" required>
+    </div>
+    <br>
+    <div>
+      <label for sex>sex:</label>
+      <br>
+      <select name="sex" id="sex">
+        <option value="male">male</option>
+        <option value="female">female</option>
+      </select>
+    </div>
+    <br>
+    <div>
+      <label for country>country</label>
+      <br>
+      <input type="text" name="country" id="country" required>
+    </div>
+    <br>
+    <div>
+      <label for state>state or province</label>
+      <br>
+      <input type="state or province" name="state or province" id="state or province" required>
+    </div>
+    <br>
+    <div>
+      <label for email>email</label><br>
+      <br>
+      <input type="email" name="email" id="email" required placeholder="enter a valid email address">
+    </div>
+    <br>
+    <div>
+      <label for pwd>password</label><br>
+      <br>
+      <input type="password" name="pwd" id="pwd">
+    </div>
+    <br>
+    <div>
+      <label for confirm password>confirm password</label><br>
+      <br>
+      <input type="password" name="confirm password" id="confirm password">
+    </div>
+    <br>
+    <div class="btn">
+      <button class="but">Sign Up</button>
+    </div>
+    <br>
+  <p class="last">Already registered?<a href=signin.html>sign in</a></p>
+</form>  
+</body>
+</html>

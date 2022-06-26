@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel=stylesheet href="style.css"/>
+  <title>Form</title>
+</head>
+<body>
+  <header>
+
+    <nav class="nav">
+      <div class="logo">
+      <a href="index.html">NS</a>
+    </div>
+    <ul class="nav_link">
+      <li>
+        <a href="register.html">Register</a>
+
+      </li>
+      <li>
+        <a href="signin.html">Sign In</a>
+
+      </li>
+      <li>
+        <a href="contact.html">Contact me</a>
+
+      </li>
+    </ul>
+  </nav>
+</header>
+<h1 style="text-align: center; margin-top:20px; color: black">Contact Me</h1>
+  <form action="submit">
+    <div>
+    <label for name>Name:</label><br>
+    <br>
+    <input type="text" name="name" id="name" required>
+    </div>
+    <br>
+    <div>
+    <label for email>email:</label><br>
+    <br>
+    <input type="email" name="email" id="email" required placeholder="Enter a valid email address">
+    </div>
+    <br>
+    <div>
+      <label for message>write a message:</label><br>
+      <br>
+      <textarea type="text" required></textarea>
+    </div>
+    <br>
+    <div class="btn">
+      <button class="but">Submit</button>
+    </div>
+  </form>
+</body>
+</html>
